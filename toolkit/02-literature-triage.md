@@ -14,9 +14,11 @@ Use AI to find and organize candidate papers faster. Do not use AI as a substitu
 1. Convert your topic into a focused research question.
 2. Search using a scholarly tool such as Consensus, Elicit, Google Scholar, or library databases.
 3. Save candidate papers to Zotero.
-4. Fill in `templates/literature-triage-table.md`.
-5. Mark each paper as keep, maybe, or drop.
-6. Read the abstract, method, findings, and limitations before citing.
+4. Fill in `templates/source-pack-manifest.md` and `templates/literature-triage-table.md`.
+5. Mark source status: `opened_full_text`, `metadata_only`, `secondary_summary`, or `not_checked`.
+6. Mark each paper as keep, maybe, or drop.
+7. Read the abstract, method, findings, and limitations before citing.
+8. Promote only checked sources into `workflows/source-pack-to-note.md`.
 
 ## Minimum evidence table
 
@@ -33,7 +35,13 @@ For each paper, record:
 
 Never cite a paper because an AI summary sounds useful. Open the paper and check the claim.
 
+Use these rules:
+
+- `metadata_only` is enough for triage, not for final claims.
+- `secondary_summary` can suggest directions, not evidence.
+- `opened_full_text` is the minimum status for citation.
+- Every cited claim should later appear in `templates/evidence-anchor-table.md`.
+
 ## HeXie link
 
 The system accelerates search and organization. The human decides relevance, quality, and argument fit.
-
