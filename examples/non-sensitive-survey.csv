@@ -1,0 +1,12 @@
+respondent_id,pathway,study_hours_per_week,ai_use_frequency,confidence_before,confidence_after,preferred_workflow
+S001,GIS,6,weekly,3,4,literature triage
+S002,SHR,4,daily,2,4,writing review
+S003,SAH,8,weekly,3,5,grounded reading
+S004,GIS,3,rarely,2,3,concept explanation
+S005,SHR,7,daily,4,5,data analysis
+S006,SAH,5,weekly,3,4,literature triage
+S007,GIS,9,daily,4,5,agent workflow
+S008,SHR,2,rarely,2,3,concept explanation
+S009,SAH,6,weekly,3,4,writing review
+S010,GIS,5,weekly,3,4,grounded reading
+
